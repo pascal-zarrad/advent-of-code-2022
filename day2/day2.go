@@ -29,15 +29,12 @@ const (
 )
 
 func solvePartOne(input string) int {
+	input = strings.Trim(input, "\n")
 	gameRounds := strings.Split(input, "\n")
 
 	finalScore := 0
 
 	for _, round := range gameRounds {
-		if round == "" {
-			continue
-		}
-
 		actions := strings.Split(round, " ")
 
 		opponentAction := actions[0]
@@ -73,15 +70,12 @@ func solvePartOne(input string) int {
 }
 
 func solvePartTwo(input string) int {
+	input = strings.Trim(input, "\n")
 	gameRounds := strings.Split(input, "\n")
 
 	finalScore := 0
 
 	for _, round := range gameRounds {
-		if round == "" {
-			continue
-		}
-
 		actions := strings.Split(round, " ")
 
 		opponentAction := actions[0]
