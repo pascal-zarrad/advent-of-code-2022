@@ -16,3 +16,4 @@ Every year since then, with the first day of December, a programming puzzles con
 A set of Christmas-oriented challenges provide any input you have to use to answer using the language of your choice.
 
 [aoc]: https://adventofcode.com
+[github]: https://github.com/pascal-zarrad
